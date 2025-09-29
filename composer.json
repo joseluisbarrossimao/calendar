@@ -1,0 +1,24 @@
+{
+    "name": "rest-full/calendar",
+    "description": "calendar events or scheduling.",
+    "type": "library",
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Calendars\\": "src"
+        }
+    },
+    "require": {
+        "ext-calendar": "*",
+        "ext-json": "*",
+        "rest-full/orm": "1.*"
+    }
+}
